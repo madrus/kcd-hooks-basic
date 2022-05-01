@@ -1,10 +1,14 @@
-import "./styles.css";
+import Box from '@mui/material/Box'
+import CssBaseline from '@mui/material/CssBaseline'
+import { Counter } from './Counter'
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
-}
+const App = () => (
+  <Box height={'300px'} width={'300px'}>
+    <CssBaseline />
+    <Box display={'flex'} justifyContent={'center'} alignItems={'center'}>
+      <Counter />
+    </Box>
+  </Box>
+)
+
+export default App
