@@ -1,14 +1,10 @@
-import Box from '@mui/material/Box'
-import CssBaseline from '@mui/material/CssBaseline'
 import { Counter } from './Counter'
+import './App.scss'
 
 const App = () => (
-  <Box height={'300px'} width={'300px'}>
-    <CssBaseline />
-    <Box display={'flex'} justifyContent={'center'} alignItems={'center'}>
-      <Counter />
-    </Box>
-  </Box>
+  <div className={'app'}>
+    <Counter />
+  </div>
 )
 
 export default App
