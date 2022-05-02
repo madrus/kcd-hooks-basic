@@ -1,9 +1,9 @@
-import Stopwatch from './Stopwatch'
+import { CheckActivity } from './CheckActivity'
 import './App.scss'
 
 const App = () => (
   <div className={'app'}>
-    <Stopwatch />
+    <CheckActivity />
   </div>
 )
 
