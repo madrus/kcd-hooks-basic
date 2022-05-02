@@ -31,3 +31,5 @@ export const Usage = () => (
     </Tilt>
   </div>
 )
+
+export default Tilt

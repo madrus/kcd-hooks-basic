@@ -1,9 +1,9 @@
-import UpperMemo from './UpperMemo'
+import LazyTilt from './VanillaTiltLazy'
 import './App.scss'
 
 const App = () => (
   <div className={'app'}>
-    <UpperMemo />
+    <LazyTilt />
   </div>
 )
 
