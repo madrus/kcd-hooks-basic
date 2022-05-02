@@ -10,7 +10,7 @@ const reducer = (currentState: StopwatchState, newState: StopwatchState) => ({
   ...newState
 })
 
-const Stopwatch: FC = () => {
+const useStopwatch = () => {
   // we rename here dispatch to setState to make our intention clearer
   const [{ running, lapse }, setState] = useReducer(reducer, {
     lapse: 0,
@@ -40,6 +40,18 @@ const Stopwatch: FC = () => {
     setState({ lapse: 0, running: false })
   }
 
+  return {
+    handleClearClick,
+    handleRunClick,
+    lapse,
+    running
+  }
+}
+
+const Stopwatch: FC = () => {
+  const stopwatchOne = useStopwatch()
+  const stopwatchTwo = useStopwatch()
+
   return (
     <div style={{ textAlign: 'center' }}>
       <label
@@ -48,13 +60,32 @@ const Stopwatch: FC = () => {
           display: 'block'
         }}
       >
-        {lapse}
+        {stopwatchOne.lapse}
         ms
       </label>
-      <button onClick={handleRunClick} style={buttonStyles}>
-        {running ? 'Stop' : 'Start'}
+      <button onClick={stopwatchOne.handleRunClick} style={buttonStyles}>
+        {stopwatchOne.running ? 'Stop' : 'Start'}
       </button>
-      <button onClick={handleClearClick} style={buttonStyles}>
+      <button onClick={stopwatchOne.handleClearClick} style={buttonStyles}>
+        Clear
+      </button>
+      <hr />
+      <strong>Lapse Difference:</strong>
+      <span>{stopwatchOne.lapse! - stopwatchTwo.lapse!}ms</span>
+      <hr />
+      <label
+        style={{
+          fontSize: '5em',
+          display: 'block'
+        }}
+      >
+        {stopwatchTwo.lapse}
+        ms
+      </label>
+      <button onClick={stopwatchTwo.handleRunClick} style={buttonStyles}>
+        {stopwatchTwo.running ? 'Stop' : 'Start'}
+      </button>
+      <button onClick={stopwatchTwo.handleClearClick} style={buttonStyles}>
         Clear
       </button>
     </div>
