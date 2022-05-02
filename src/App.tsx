@@ -1,9 +1,9 @@
-import { Counter } from './Counter'
+import { Usage } from './VanillaTilt'
 import './App.scss'
 
 const App = () => (
   <div className={'app'}>
-    <Counter />
+    <Usage />
   </div>
 )
 

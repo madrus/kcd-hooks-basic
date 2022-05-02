@@ -880,6 +880,13 @@
   dependencies:
     "@types/jest" "*"
 
+"@types/vanilla-tilt@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@types/vanilla-tilt/-/vanilla-tilt-1.6.2.tgz#1b49b1c0027ed3a664fb3683427d9d4f05f316c3"
+  integrity sha512-KQRqLG1/5G768y3EYiwuiRqU+dpmxB8QuYdOqpd+4HM+E4RMGh2/xKfRUz7N38Al981ul0Km2vsb7CuxgLHBww==
+  dependencies:
+    vanilla-tilt "*"
+
 "@types/yargs-parser@*":
   version "21.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-21.0.0.tgz#0c60e537fa790f5f9472ed2776c2b71ec117351b"
@@ -4444,6 +4451,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+vanilla-tilt@*, vanilla-tilt@^1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/vanilla-tilt/-/vanilla-tilt-1.7.2.tgz#59a5565d9f1f6d392a36969f223fb600dd101a81"
+  integrity sha512-arf2wY2Y65rP6Zxve9PnUUnRl9nQ1KenPNae6QRaVq/PEvaIto2bC4jYirNJ19U7nLkzI1H9O+nYtcQlX7BTsA==
 
 vite@2.9.6, vite@^2.9.5:
   version "2.9.6"
