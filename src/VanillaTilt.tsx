@@ -1,5 +1,6 @@
 import { LegacyRef, ReactNode, useEffect, useRef } from 'react'
 import VanillaTilt, { HTMLVanillaTiltElement } from 'vanilla-tilt'
+import './VanillaTilt.css'
 
 const Tilt = ({ children }: { children: ReactNode }) => {
   const tiltRef = useRef<HTMLVanillaTiltElement>(null)
