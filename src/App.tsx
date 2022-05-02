@@ -1,9 +1,9 @@
-import { Usage } from './VanillaTilt'
+import Stopwatch from './Stopwatch'
 import './App.scss'
 
 const App = () => (
   <div className={'app'}>
-    <Usage />
+    <Stopwatch />
   </div>
 )
 
