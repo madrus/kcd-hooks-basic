@@ -1,9 +1,9 @@
-import { CheckActivity } from './CheckActivity'
+import UpperMemo from './UpperMemo'
 import './App.scss'
 
 const App = () => (
   <div className={'app'}>
-    <CheckActivity />
+    <UpperMemo />
   </div>
 )
 
