@@ -1,9 +1,9 @@
-import { Usage } from './VanillaTilt'
+import UpperMemo from './UpperMemo'
 import './App.scss'
 
 const App = () => (
   <div className={'app'}>
-    <Usage />
+    <UpperMemo />
   </div>
 )
 

@@ -11,11 +11,15 @@ describe('<Counter />', () => {
   })
 
   it('should increment the count', () => {
+    const initialState = 2
+    const step = 3
+
     const { container } = render(<Counter />)
     const button = container.firstChild as Element
-    expect(button?.textContent).toBe('0')
+
+    expect(button?.textContent).toBe('2')
     fireEvent.click(button)
-    expect(button?.textContent).toBe('1')
+    expect(button?.textContent).toBe('5')
   })
 
   it('should read and write localStorage', () => {
