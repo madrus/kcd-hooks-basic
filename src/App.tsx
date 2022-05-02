@@ -1,9 +1,9 @@
-import { Counter } from './Counter'
+import Stopwatch from './Stopwatch'
 import './App.scss'
 
 const App = () => (
   <div className={'app'}>
-    <Counter />
+    <Stopwatch />
   </div>
 )
 
