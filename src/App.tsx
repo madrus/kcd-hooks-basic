@@ -1,9 +1,9 @@
-import LazyTilt from './VanillaTiltLazy'
+import PokemonFinder from './PokemonFinder'
 import './App.scss'
 
 const App = () => (
   <div className={'app'}>
-    <LazyTilt />
+    <PokemonFinder />
   </div>
 )
 

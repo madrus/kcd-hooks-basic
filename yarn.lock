@@ -400,6 +400,13 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
+"@favware/graphql-pokemon@^6.5.10":
+  version "6.5.10"
+  resolved "https://registry.yarnpkg.com/@favware/graphql-pokemon/-/graphql-pokemon-6.5.10.tgz#d03d5880310c18d7b02733e1054048275be6e8ab"
+  integrity sha512-cyy2ajUDJ/wUMjV3nRJbwE7/nEsPyNftvnw9e8tZtW5yWSX4haqUxKhlxpOz88KRn7wAPE4++/vTq4YYroD0iA==
+  dependencies:
+    graphql "^15.8.0"
+
 "@hutson/parse-repository-url@^3.0.0":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@hutson/parse-repository-url/-/parse-repository-url-3.0.2.tgz#98c23c950a3d9b6c8f0daed06da6c3af06981340"
@@ -846,6 +853,11 @@
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
+
+"@types/react-cache@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/react-cache/-/react-cache-2.0.1.tgz#7f06bc9bb14f3ef60b9ffc545a473ad885f623db"
+  integrity sha512-5T8/ZF+uw5RLmmO0JItAwZs3rDh1b61xxHFw4SSEFMIkkE673oIfpfLxD7fbT3UZtAKN7HTvyhJDKYIQZMK7Lg==
 
 "@types/react-dom@18.0.3", "@types/react-dom@^18.0.0":
   version "18.0.3"
@@ -2350,6 +2362,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.9:
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
+
+graphql@^15.8.0:
+  version "15.8.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.8.0.tgz#33410e96b012fa3bdb1091cc99a94769db212b38"
+  integrity sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==
 
 handlebars@^4.7.7:
   version "4.7.7"
